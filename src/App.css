@@ -1,0 +1,41 @@
+#root {
+  max-width: 1380px;
+  margin: 0 auto;
+  }
+#start{
+    background-color:rgb(218, 232, 238);
+    padding:1em;
+    display: flex;  
+    color:black; 
+    font-size:18px;
+    font-weight:bold;
+}
+#edit{
+  margin-left:100px;
+  
+}
+.custom-button{
+    color:black;
+    text-decoration:none;
+}
+.custom-button:hover{
+    color: blue ;
+    font-weight: bold;
+    text-decoration:underline;
+}
+#button2{
+    width:120px;
+    height:40px;
+    border:2px black solid;
+    margin-right:10px;
+    border-radius:3px;
+}
+#twotask{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+#button2:hover{
+    background-color:white;
+
+}
