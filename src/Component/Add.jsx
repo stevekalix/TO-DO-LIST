@@ -28,7 +28,9 @@ function Update({ task, setTask }) {
             <div id="pageone">
                 <br />
                 <br />
+                <br />
                 <div id="input">
+
                      Title: <br /><input
                     value={title.titlevalue}
                     type="text"
